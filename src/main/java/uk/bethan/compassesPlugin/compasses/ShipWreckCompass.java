@@ -18,7 +18,7 @@ public class ShipWreckCompass implements Compass {
 
         shipWreckCompassRecipe.shape("PIP", "IRI", "PIP");
 
-        shipWreckCompassRecipe.setIngredient('P', Material.PAPER);
+        shipWreckCompassRecipe.setIngredient('P', Material.MAP);
         shipWreckCompassRecipe.setIngredient('I', Material.IRON_INGOT);
         shipWreckCompassRecipe.setIngredient('R', Material.REDSTONE);
 
