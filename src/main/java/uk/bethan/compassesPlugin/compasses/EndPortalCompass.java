@@ -18,7 +18,7 @@ public class EndPortalCompass implements Compass {
 
         endPortalCompassRecipe.shape("EIE", "IRI", "EIE");
 
-        endPortalCompassRecipe.setIngredient('E', Material.ENDER_PEARL);
+        endPortalCompassRecipe.setIngredient('E', Material.ENDER_EYE);
         endPortalCompassRecipe.setIngredient('I', Material.IRON_INGOT);
         endPortalCompassRecipe.setIngredient('R', Material.REDSTONE);
 
