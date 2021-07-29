@@ -16,11 +16,12 @@ public class DesertTemplesCompass implements Compass {
 
         ShapedRecipe desertTempleCompassRecipe = new ShapedRecipe(key, getItem());
 
-        desertTempleCompassRecipe.shape("CIC", "IRI", "CIC");
+        desertTempleCompassRecipe.shape("SIS", "IRI", "BIB");
 
         desertTempleCompassRecipe.setIngredient('I', Material.IRON_INGOT);
         desertTempleCompassRecipe.setIngredient('R', Material.REDSTONE);
-        desertTempleCompassRecipe.setIngredient('C', Material.CLAY);
+        desertTempleCompassRecipe.setIngredient('S', Material.RED_SANDSTONE);
+        desertTempleCompassRecipe.setIngredient('B', Material.IRON_BLOCK);
 
         CompassesPlugin.plugin.getServer().addRecipe(desertTempleCompassRecipe);
     }
