@@ -16,11 +16,12 @@ public class JungleTemplesCompass implements Compass {
 
         ShapedRecipe jungleTempleCompassRecipe = new ShapedRecipe(key, getItem());
 
-        jungleTempleCompassRecipe.shape("MIM", "IRI", "MIM");
+        jungleTempleCompassRecipe.shape("MIB", "IRI", "BIM");
 
         jungleTempleCompassRecipe.setIngredient('I', Material.IRON_INGOT);
         jungleTempleCompassRecipe.setIngredient('R', Material.REDSTONE);
         jungleTempleCompassRecipe.setIngredient('M', Material.MOSSY_COBBLESTONE);
+        jungleTempleCompassRecipe.setIngredient('B', Material.GOLD_BLOCK);
 
         CompassesPlugin.plugin.getServer().addRecipe(jungleTempleCompassRecipe);
     }
